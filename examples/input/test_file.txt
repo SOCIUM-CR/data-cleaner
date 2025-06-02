@@ -1,0 +1,18 @@
+# Documento de ejemplo con datos sensibles
+
+Mi nombre es Juan Pérez y trabajo en TechCorp Inc.
+Mi email es juan.perez@techcorp.com
+Mi teléfono es +1-555-0123
+Mi dirección IP de desarrollo es 192.168.1.100
+
+Configuración del servidor:
+- Host: https://api.ejemplo.com/v1
+- Base de datos: /home/usuario/db/production.db
+- Logs: /var/log/application.log
+
+Información adicional:
+- Fecha de nacimiento: 15/03/1985
+- Tarjeta de crédito: 4000-1234-5678-9012
+- Dirección: 123 Main Street, Springfield
+
+Este archivo contiene información confidencial que debe ser anonimizada.
