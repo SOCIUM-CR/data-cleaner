@@ -401,7 +401,7 @@ Desarrollado por **Franco Micalizzi** como parte del proyecto de anonimización 
 ## 📈 Estado del Proyecto
 
 **Versión Actual**: 0.1.0 (Alpha)  
-**Última Actualización**: Enero 2025  
+**Última Actualización**: Junio 2025  
 **Estado**: En desarrollo activo  
 
 ### Métricas de Desarrollo
