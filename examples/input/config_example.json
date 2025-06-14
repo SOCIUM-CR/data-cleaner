@@ -1,0 +1,49 @@
+{
+  "database": {
+    "host": "production.example.com",
+    "port": 5432,
+    "username": "prod_user",
+    "password": "super_secure_password_2024",
+    "database_name": "main_production_db"
+  },
+  "api": {
+    "base_url": "https://api.example.com/v2",
+    "auth_token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "webhook_url": "https://hooks.example.com/webhooks/12345"
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "/var/log/production/app.log",
+    "error_log": "/var/log/production/errors.log"
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "notifications@example.com",
+    "password": "email_password_123",
+    "from_address": "noreply@example.com"
+  },
+  "admin_contacts": [
+    {
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1-555-0100"
+    },
+    {
+      "name": "Sarah Johnson", 
+      "email": "sarah.johnson@example.com",
+      "phone": "+1-555-0101"
+    }
+  ],
+  "servers": {
+    "web_servers": ["10.0.1.10", "10.0.1.11", "10.0.1.12"],
+    "database_servers": ["10.0.2.10", "10.0.2.11"],
+    "cache_servers": ["10.0.3.10"]
+  },
+  "backup": {
+    "s3_bucket": "example-backups-2024",
+    "access_key": "AKIAIOSFODNN7EXAMPLE", 
+    "secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "backup_schedule": "0 2 * * *"
+  }
+}
